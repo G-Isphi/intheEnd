@@ -1,0 +1,208 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2017, 8:29:35 AM
+    Author     : TheOwner
+*/
+
+body , .msanp-time-schedule-container
+{
+    /*background: #14976b;
+    */
+}
+
+.my-header
+{
+    /*background: rgba(255,255,255,1);*/
+    /*
+    background: rgba(20,151,107,1);
+    background: -moz-linear-gradient(left, rgba(20,151,107,1) 0%, rgba(20,151,107,1) 12%, rgba(20,151,107,1) 25%, rgba(12,173,117,1) 39%, rgba(23,140,0,1) 50%, rgba(0,0,0,1) 51%, rgba(11,214,143,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(20,151,107,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(20,151,107,1)), color-stop(12%, rgba(20,151,107,1)), color-stop(25%, rgba(20,151,107,1)), color-stop(39%, rgba(12,173,117,1)), color-stop(50%, rgba(23,140,0,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(11,214,143,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(20,151,107,1)));
+    background: -webkit-linear-gradient(left, rgba(20,151,107,1) 0%, rgba(20,151,107,1) 12%, rgba(20,151,107,1) 25%, rgba(12,173,117,1) 39%, rgba(23,140,0,1) 50%, rgba(0,0,0,1) 51%, rgba(11,214,143,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(20,151,107,1) 100%);
+    background: -o-linear-gradient(left, rgba(20,151,107,1) 0%, rgba(20,151,107,1) 12%, rgba(20,151,107,1) 25%, rgba(12,173,117,1) 39%, rgba(23,140,0,1) 50%, rgba(0,0,0,1) 51%, rgba(11,214,143,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(20,151,107,1) 100%);
+    background: -ms-linear-gradient(left, rgba(20,151,107,1) 0%, rgba(20,151,107,1) 12%, rgba(20,151,107,1) 25%, rgba(12,173,117,1) 39%, rgba(23,140,0,1) 50%, rgba(0,0,0,1) 51%, rgba(11,214,143,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(20,151,107,1) 100%);
+    background: linear-gradient(to right, rgba(20,151,107,1) 0%, rgba(20,151,107,1) 12%, rgba(20,151,107,1) 25%, rgba(12,173,117,1) 39%, rgba(23,140,0,1) 50%, rgba(0,0,0,1) 51%, rgba(11,214,143,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(20,151,107,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14976b', endColorstr='#14976b', GradientType=1 );
+    */
+    /*
+    background: url(../images/msanpfront.jpg);
+    height:25rem;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center; */   
+}
+.msanp-header
+{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+    color: #000;
+    /*text-shadow: 5px 0px 14px #000;*/                 
+}
+
+.tm-navbar {
+    padding: 15px 0;
+    border: none;
+    background: #000;
+    position: relative;
+}
+
+
+.uk-navbar {
+    /*background: #14976b;*/
+    background: #333333;
+    color: #fff;
+    border: 0px solid rgba(0,0,0,0.06);
+    /*border-radius: 0px;*/
+    -moz-box-shadow: 3px 3px 5px #00183d;
+    -webkit-box-shadow: 3px 3px 5px #00183d;
+    box-shadow: 3px 3px 5px #00183d;
+
+
+}   
+.msanp-navlink
+{
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 41px;
+    padding: 0 15px;
+    line-height: 40px;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.2em !important;
+    font-weight: 300 !important;                
+    margin-top: -1px;
+    margin-left: -1px;
+    border: 1px solid transparent !important;
+    border-bottom-width: 0;
+    text-shadow:0px 0px 0px #333333 !important;
+    cursor: pointer;
+} 
+.msanp-navlink-hover
+{
+    color: #000 !important;
+    background-color: #8ac04c;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1); 
+    transform: scale(1.1, 1.1);
+
+}
+
+.msanp-navlink-out
+{
+    color: #fff !important;
+    background-color:  #333333;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1); 
+    transform: scale(1, 1);
+}
+
+.msanp-banner
+{
+    border-bottom: #000;
+}
+.uk-slidenav-position , .msanp-time-schedule-container
+{
+    /*
+    -moz-box-shadow: 4px -3px 8px #000000;
+    -webkit-box-shadow: 4px -3px 8px #000000;
+    box-shadow: 4px -3px 8px #000000;
+    */
+}
+.msanp-full-cover-image
+{
+    width:auto;
+    height:100%;
+}
+
+.shaded
+{
+    border-radius: 5px; 
+    margin-bottom: 5%;
+}
+
+.uk-border-rounded:hover  
+{
+    -moz-box-shadow: 3px 3px 5px #00183d;
+    -webkit-box-shadow: 3px 3px 5px #00183d;
+    box-shadow: 3px 3px 5px #00183d;
+}
+
+.sh
+{
+    -moz-box-shadow: 3px 3px 5px #00183d;
+    -webkit-box-shadow: 3px 3px 5px #00183d;
+    box-shadow: 3px 3px 5px #00183d;
+}
+
+.show-hide {
+  /*transition: all linear 0.5s;*/
+}
+.show-hide.ng-hide {
+  /*opacity: 0;*/
+}
+
+#__SUPERCONTAINER
+{
+    padding:2rem;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.my-search
+{
+    margin-left: -0.4rem;
+    overflow: hidden;
+    height: 35px;
+    border: 1px solid #cccccc;
+    border-right: 0 none;
+    border-radius: 3px 0 0 3px;
+}
+
+[msanp-page-id]
+{
+    cursor: pointer;
+}
+
+.tooltipevent
+{
+    font-size: small;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+
+
+    border:solid 1px #f7acb0;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+
+    -moz-box-shadow: 10px 10px 37px #000000;
+    -webkit-box-shadow: 10px 10px 37px #000000;
+    box-shadow: 10px 10px 37px #000000;
+
+
+
+    
+} 
+
+
+
